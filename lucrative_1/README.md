@@ -6,7 +6,7 @@ Points: 350 points
 
 Author: $in
 
-## The challenge {#challenge-id}
+## The challenge
 You've been part of a shady hackerTs organization for a while now, and your team is preparing a big shot.
 
 A new cryptocurrency, ph0wncoin is flooding the market and claiming to be THE nextgen currency. You know for a fact that this is not even close to be true, and that this is just a cover for a new centralized currency.
@@ -17,7 +17,7 @@ However, your team has been passively trying to find vulnerabilities to infiltra
 
 Credits to **AnomalRoil** on this one!!!
 
-In addition to the [challenge's description](#challenge-id " "), we were given a [client python script](https://github.com/0xbaaf/ph0wn-2021/blob/main/lucrative_1/challenge/client.py "client.py").
+In addition to the [challenge's description](#the-challenge) we were given a [client python script](https://github.com/0xbaaf/ph0wn-2021/blob/main/lucrative_1/challenge/client.py "client.py").
 
 ### Client script analysis
 The script encrypts a password under a key derived from the timestamp and two 32 bits unknown values (A and B).
@@ -34,7 +34,7 @@ The encryption routine returns the encrypted password and the seed used (timesta
 
 ### Logs
 
-Following [challenge's description](#challenge-id " "), there is an ELK instance where we can get authentication logs.
+Following [challenge's description](#the-challenge " "), there is an ELK instance where we can get authentication logs.
 
 ``` $ nc challenges.ph0wn.org 12345```
 
