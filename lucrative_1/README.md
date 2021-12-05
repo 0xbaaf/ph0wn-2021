@@ -17,7 +17,7 @@ Credits to **AnomalRoil** on this one!!!
 
 In addition to the [challenge's description](#challenge-id " "), we were given a [client python script](https://github.com/0xbaaf/ph0wn-2021/blob/main/lucrative_1/challenge/client.py "client.py").
 
-### Client script analysises
+### Client script analysis
 The script encrypts a password under a key derived from the timestamp and two 32 bits unknown values (A and B).
 
 For each block of plaintext (block size is 4 bytes), a key is drawn from a pseudo random generator. This pseudo random number generator (PRNG) is called [Linear Congruential Generator](https://en.wikipedia.org/wiki/Linear_congruential_generator "LCG") even if it is affine ... 
