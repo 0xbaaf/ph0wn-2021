@@ -1,7 +1,9 @@
 # Lucrative Infiltration 1 @ ph0wn 2021
 
 Lucrative Infiltration 1 is a challenge tagged "crypto".
+
 Points: 350 points
+
 Author: $in
 
 ## The challenge {#challenge-id}
